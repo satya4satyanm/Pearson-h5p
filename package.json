@@ -1,0 +1,19 @@
+{
+  "name": "pearson-h5p",
+  "version": "1.0.0",
+  "description": "pearson h5p vendor file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satya4satyanm/Pearson-h5p.git"
+  },
+  "author": "Pearson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satya4satyanm/Pearson-h5p/issues"
+  },
+  "homepage": "https://github.com/satya4satyanm/Pearson-h5p#readme"
+}
