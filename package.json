@@ -1,6 +1,6 @@
 {
   "name": "pearson-h5p",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pearson h5p vendor file",
   "main": "index.js",
   "scripts": {
