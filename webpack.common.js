@@ -12,8 +12,8 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     library: {
       root: 'H5PStandalone',
-      amd: 'h5p-standalone',
-      commonjs: 'h5p-standalone'
+      amd: 'Pearson-h5p',
+      commonjs: 'Pearson-h5p'
     },
     libraryExport: "default",
     libraryTarget: 'umd'
@@ -30,7 +30,7 @@ module.exports = {
       H5PActionBar: require.resolve(path.resolve(__dirname, 'vendor/h5p/js', 'h5p-action-bar')),
       H5PRequestQueue: require.resolve(path.resolve(__dirname, 'vendor/h5p/js', 'request-queue')),
       H5PConfirmationDialog: require.resolve(path.resolve(__dirname, 'vendor/h5p/js', 'h5p-confirmation-dialog')),
-      'h5p-standalone': require.resolve(path.resolve(__dirname, 'src/js', 'index'))
+      'Pearson-h5p': require.resolve(path.resolve(__dirname, 'src/js', 'index'))
     }
   },
   module: {

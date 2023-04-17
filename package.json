@@ -1,6 +1,6 @@
 {
   "name": "pearson-h5p",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "description": "Display H5P content as standalone frontend code, no server needed.",
   "main": "dist/main.bundle.js",
   "publishConfig": {
@@ -50,7 +50,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tunapanda/h5p-standalone.git"
+    "url": "git+https://github.com/satya4satyanm/Pearson-h5p.git"
   },
   "keywords": [
     "h5p"
@@ -58,7 +58,7 @@
   "author": "Jake Lee Kennedy <jake@tunapanda.org>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tunapanda/h5p-standalone/issues"
+    "url": "https://github.com/satya4satyanm/Pearson-h5p/issues"
   },
-  "homepage": "https://github.com/tunapanda/h5p-standalone#readme"
+  "homepage": "https://github.com/satya4satyanm/Pearson-h5p#readme"
 }

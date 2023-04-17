@@ -980,7 +980,7 @@ H5P.newRunnable = function (library, contentId, $attachTo, skipResize, extras) {
   }
 
   if ($attachTo !== undefined) {
-    $attachTo.toggleClass('h5p-standalone', standalone);
+    $attachTo.toggleClass('Pearson-h5p', standalone);
     instance.attach($attachTo);
     H5P.trigger(instance, 'domChanged', {
       '$target': $attachTo,

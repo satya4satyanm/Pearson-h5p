@@ -1,5 +1,5 @@
 import './h5p-integration';
-import H5PStandalone from './h5p-standalone.class';
+import H5PStandalone from './Pearson-h5p.class';
 import 'H5PEventDispatcher';
 import 'H5PxAPI';
 import 'H5PxAPIEvent';

@@ -1,12 +1,12 @@
-# H5P Standalone Player 3.x [![CircleCI](https://circleci.com/gh/tunapanda/h5p-standalone.svg?style=svg)](https://circleci.com/gh/tunapanda/h5p-standalone)
+# H5P Standalone Player 3.x [![CircleCI](https://circleci.com/gh/satya4satyanm/Pearson-h5p.svg?style=svg)](https://circleci.com/gh/satya4satyanm/Pearson-h5p)
 Display H5P content without the need for an H5P server
 
 ## Installation
 
 **Source**|**Info**
 -----|-----
-yarn | `yarn add h5p-standalone`
-Release | [Download latest version here](https://github.com/tunapanda/h5p-standalone/releases/latest)
+yarn | `yarn add Pearson-h5p`
+Release | [Download latest version here](https://github.com/satya4satyanm/Pearson-h5p/releases/latest)
 
 ## Basic Usage
 Ensure you have an extracted H5P zip file in your workspace folder first. A simple guide on how to extract an H5P zip file is provided  [here ](#extracting-h5p)
@@ -15,7 +15,7 @@ Ensure you have an extracted H5P zip file in your workspace folder first. A simp
 The player can be set up either by directly calling the already built scripts and styles in your `HTML` page or using `ES6` syntax.
 
 ### Direct use
-1.  Download the project latest release zipped source code from [here](https://github.com/tunapanda/h5p-standalone/releases/latest)
+1.  Download the project latest release zipped source code from [here](https://github.com/satya4satyanm/Pearson-h5p/releases/latest)
 2. Extract the downloaded zipped code in step 1 above
 3. Copy the contents of the `dist` folder into your workspace static `assets` folder ( _The folder name does not matter. Remember the location for the next step_ )
 4. Add a  `div` element in your HTML page where you want to display the H5P content. The `div` element should have a unique `id` attribute as compared to all other elements on the same page.
@@ -46,7 +46,7 @@ The player can be set up either by directly calling the already built scripts an
 Install the player using yarn
 
 ```
-yarn add h5p-standalone
+yarn add Pearson-h5p
 ```
 
 Add an element to attach the player
@@ -55,8 +55,8 @@ Add an element to attach the player
 ```
 initialize the H5P
 ```javascript
-import { H5P } from 'h5p-standalone'; // ES6
-// const { H5P } = require('h5p-standalone'); AMD
+import { H5P } from 'Pearson-h5p'; // ES6
+// const { H5P } = require('Pearson-h5p'); AMD
 // const { H5P } = 'H5PStandalone'; // object destructuring
 
 const el = document.getElementById('h5p-container');
@@ -118,7 +118,7 @@ The standalone H5P player constructor accepts two arguments.
 ----
 #### Example with advance options
 ```javascript
-import { H5P } from 'h5p-standalone';
+import { H5P } from 'Pearson-h5p';
 
 const el = document.getElementById('h5p-container');
 
@@ -156,7 +156,7 @@ new H5P(el,options)
 To render multiple H5Ps, your code **must** be async aware.
 
 ```javascript
-import { H5P } from 'h5p-standalone';
+import { H5P } from 'Pearson-h5p';
 const player1Options = {
     h5pJsonPath: '/h5p/exercise-one',
     frameJs: '/assets/frame.bundle.js',
@@ -207,7 +207,7 @@ new H5PStandalone.H5P(el, options).then(function () {
 ```
 2) Using `async` function
 ```js
-import { H5P as H5PStandalone } from 'h5p-standalone'; //you need you an alias due to conflict
+import { H5P as H5PStandalone } from 'Pearson-h5p'; //you need you an alias due to conflict
 
 async function myAwesomePlayer() {
   const el = document.getElementById("h5p-container");
