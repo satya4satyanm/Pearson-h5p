@@ -1,5 +1,5 @@
 {
-  "name": "h5p-standalone",
+  "name": "pearson-h5p",
   "version": "2.1.5",
   "description": "Display H5P content as standalone frontend code, no server needed.",
   "main": "dist/main.bundle.js",
