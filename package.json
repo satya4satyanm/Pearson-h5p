@@ -1,6 +1,6 @@
 {
   "name": "pearson-h5p",
-  "version": "2.1.7",
+  "version": "2.1.8",
   "description": "Display H5P content as standalone frontend code, no server needed.",
   "main": "dist/main.bundle.js",
   "publishConfig": {
